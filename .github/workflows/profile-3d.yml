@@ -2,8 +2,8 @@ name: GitHub Profile 3D Contrib
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # chạy lúc 2:00 UTC mỗi ngày
-  workflow_dispatch:        # cho phép chạy thủ công
+    - cron: "0 2 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -18,7 +18,7 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          USERNAME: gwould
 
       - name: Commit & Push
         run: |
