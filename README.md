@@ -73,7 +73,7 @@ var me = new Developer
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gwould&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&area_color=58A6FF&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![3D Contrib](./profile-3d-contrib/profile-night-green.svg)](https://github.com/yoshi389111/github-profile-3d-contrib)
 
 </div>
 
